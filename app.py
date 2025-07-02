@@ -31,7 +31,7 @@ breakdown plus automatic issue detection.
 Powered by **IBM Watson Natural Language Understanding**.
 """
 )
-st.sidebar.markdown("🔗 [View GitHub Repo](https://github.com/hiteshchaudhari/car-rental-feedback-analyzer)")
+st.sidebar.markdown("🔗 [View GitHub Repo](https://github.com/Hiteshyc/car_rental_feedback_analyzer_watson.ai)")
 st.sidebar.markdown("👨‍💻 Made by **Hitesh Chaudhari**")
 
 # ───────────────────────────── Custom CSS ─────────────────────────────────
@@ -247,7 +247,7 @@ if df is not None:
 st.markdown("---")
 st.markdown(
     "<div style='text-align:center; color:gray'>Made by <strong>Hitesh Chaudhari</strong> • "
-    "<a href='https://github.com/hiteshchaudhari/car-rental-feedback-analyzer' target='_blank'>GitHub Repo</a>"
+    "<a href='https://github.com/Hiteshyc/car_rental_feedback_analyzer_watson.ai' target='_blank'>GitHub Repo</a>"
     "</div>",
     unsafe_allow_html=True,
 )
