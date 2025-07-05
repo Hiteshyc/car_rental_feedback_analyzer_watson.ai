@@ -67,8 +67,8 @@ def get_demo_data() -> pd.DataFrame:
 @st.cache_resource
 def init_watson():
    
-    api_key = "2i7M1oiyhwXMHaeO1jOQkZdtHGjzCo_BreDibvSGn2cS"
-    service_url = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/fbf08a4e-d409-4965-894d-347f8faabce1"
+    api_key = ""
+    service_url = ""
 
     authenticator = IAMAuthenticator(api_key)
     nlu = NaturalLanguageUnderstandingV1(
