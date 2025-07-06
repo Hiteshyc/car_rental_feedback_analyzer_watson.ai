@@ -66,9 +66,9 @@ def get_demo_data() -> pd.DataFrame:
 # ───────────────────────────── IBM Watson init ───────────────────────────
 @st.cache_resource
 def init_watson():
-   
+    # 🔒 Replace these with your actual API key and service URL
     api_key = "2i7M1oiyhwXMHaeO1jOQkZdtHGjzCo_BreDibvSGn2cS"
-    service_url = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/fbf08a4e- d409-4965-894d-347f8faabce1"
+    service_url = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/fbf08a4e-d409-4965-894d-347f8faabce1"
 
     authenticator = IAMAuthenticator(api_key)
     nlu = NaturalLanguageUnderstandingV1(
@@ -77,6 +77,7 @@ def init_watson():
     )
     nlu.set_service_url(service_url)
     return nlu
+
 
 # ───────────────────────────── Keyword map ───────────────────────────────
 ISSUE_KEYWORDS = {
